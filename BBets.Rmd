@@ -84,8 +84,9 @@ plot(sorted_brownlow, type = "l", xlab = "Index", ylab = "Value",
 
 
 ```{r}
-favstats(sorted)
+favstats(sorted_brownlow)
 ```
+The Average earning BrownLow is making about 281.  95% confidence interval is 2 standard deviations below the mean and 2 standard deviations above the mean. Those number are between 210 and 350.
 
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
