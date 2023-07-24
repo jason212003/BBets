@@ -83,7 +83,9 @@ plot(sorted_brownlow, type = "l", xlab = "Index", ylab = "Value",
 ```
 
 
-
+```{r}
+favstats(sorted)
+```
 
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
