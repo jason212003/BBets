@@ -116,6 +116,7 @@ plot(sorted_b_low, type = "l", xlab = "Index", ylab = "Value",
 favstats(sorted_b_low)
 ```
 
+The average earning for B_low is making about 10. The 2 standard deviations is one is above and the other is below and the mean of those number are -140 and other is 170.
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
@@ -149,8 +150,7 @@ plot(sorted_fair_low, type = "l", xlab = "Index", ylab = "Value",
 favstats(sorted_fair_low)
 ```
 
-
-
+The Average earning fair_low is making about -20. The 2 standard deviations are below the mean the those number are -90 and -20.
 
 # Discussion and Conclusion
 
