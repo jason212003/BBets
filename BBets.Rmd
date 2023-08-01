@@ -121,9 +121,33 @@ favstats(sorted_b_low)
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+fair_low <- array(40)
+
+for (i in 1:40) {
+
+  fair_low[i] <- BrLw(numClass = 28)
+
+}
+
+```
 
 
+```{r}
 
+
+sorted_fair_low <- sort(fair_low)
+
+plot(sorted_fair_low, type = "l", xlab = "Index", ylab = "Value",
+
+     main = "Line Plot of Brownlow Numerical Vector")
+
+```
+
+
+```{r}
+favstats(sorted_fair_low)
+```
 
 
 
@@ -131,4 +155,5 @@ favstats(sorted_b_low)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
+
 
