@@ -34,7 +34,7 @@ There are 3 questions and there should be at least 3 separate commits, at least 
 
 ## Our strategy is to build a Function and the use it to answer the three questions. 
 
-The function will be given a class_size by number of students, odds, and Number_of_times brownlow made the bet.  It will give you back how much Brownlows earnings were. We will use it to answer our three questions below. If you can, improve this function by giving default values to some of its inputs. 
+The function will be given a class_size by number of students, odds, and Number_of_times brownlow made the betas.  It will give you back how much Brownlows earnings were. We will use it to answer our three questions below. If you can, improve this function by giving default values to some of its inputs. 
 
 ```{r}
 BrLw <-function(numClass=35,odds=2,countoDo=637){
@@ -156,4 +156,4 @@ The Average earning fair_low is making about -20. The 2 standard deviations are 
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-
+So today in class we had to create different branch for each major section and introduction, method, results, inference result, and discussion and conclusion. for brownlow to try and make the profit you would have to change the odds until you find a number that can get you close to 0.
